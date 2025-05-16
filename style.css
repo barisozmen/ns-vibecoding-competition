@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  touch-action: none; /* Prevent default touch behaviors like scrolling */
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+button:hover {
+  background-color: #45a049 !important;
+  transition: background-color 0.3s;
+}
+
+button:active {
+  background-color: #3e8e41 !important;
+}
+
+@media (max-width: 768px) {
+  #score {
+    font-size: 20px !important;
+  }
+  
+  #gameOver h1 {
+    font-size: 36px !important;
+  }
+  
+  #instructions {
+    font-size: 14px !important;
+  }
+} 
